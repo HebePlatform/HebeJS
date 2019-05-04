@@ -1,0 +1,54 @@
+{
+  "_from": "hebejs",
+  "_id": "hebejs@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-szfjCEL/8ySKimsNbclBz5RbK/I=",
+  "_location": "/hebejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hebejs",
+    "name": "hebejs",
+    "escapedName": "hebejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/hebejs/download/hebejs-1.0.0.tgz",
+  "_shasum": "b337e30842fff3248a8a6b0d6dc941cf945b2bf2",
+  "_spec": "hebejs",
+  "_where": "/Users/zhanghuasheng/Desktop/HebeBlock/hebeapp",
+  "author": {
+    "name": "hebeblock"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "buffer": "^5.0.0",
+    "crypto-js": "^3.1.8",
+    "jsbn": "0.0.0",
+    "pako": "^1.0.3"
+  },
+  "deprecated": false,
+  "description": "Small collection of JavaScript functions for hebe. Allows for local signing of transactions, token creation/validation and encryption/decryption of arbitrary messages.",
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "hebejs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hebejs",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "1.0.0"
+}
